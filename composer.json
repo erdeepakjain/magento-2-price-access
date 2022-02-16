@@ -1,0 +1,16 @@
+{
+    "name": "ascure/module-priceaccess",
+    "description": "price access according to role",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ascure\\PriceAccess\\": ""
+        }
+    }
+}
