@@ -35,7 +35,7 @@ class ProductAttributeModifier
             }
         }
 
-        if(!$this->canEditPriceInBackend() && isset($parsedMeta['advanced-pricing']['children']['container_special_price']['children']['special_price']['arguments']['data']['config'])) {
+        if(!$this->canEditSpecialPriceInBackend() && isset($parsedMeta['advanced-pricing']['children']['container_special_price']['children']['special_price']['arguments']['data']['config'])) {
             $parsedMeta['advanced-pricing']['children']['container_special_price']['children']['special_price']['arguments']['data']['config']['disabled'] = true;
         }
 
